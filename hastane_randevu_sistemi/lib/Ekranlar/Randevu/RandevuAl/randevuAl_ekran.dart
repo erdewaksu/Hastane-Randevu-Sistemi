@@ -1,7 +1,6 @@
 // ignore_for_file: avoid_print
 
 import 'package:flutter/material.dart';
-import '../../Anasayfa/anasayfa_ekran.dart';
 import '../../Profil/profil_ekran.dart';
 import 'Bilesenler/randevu_body.dart';
 
@@ -62,12 +61,6 @@ class RandevuAlEkran extends StatelessWidget {
                   const Text("HASTANE RANDEVU SİSTEMİ MENÜSÜ", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),),
                 ],
               ),
-            ),
-            ListTile(
-              leading: const Icon(Icons.home_outlined),
-              title: const Text("Anasayfa"),
-              onTap: () => Navigator.push(
-                      context, MaterialPageRoute(builder: (_) => AnasayfaEkran())),
             ),
             ListTile(
               leading: const Icon(Icons.date_range_outlined),
