@@ -78,11 +78,6 @@ class _GirisEkranState extends State<GirisEkran> {
               ),
             ),
             ListTile(
-              leading: const Icon(Icons.home_outlined),
-              title: const Text("Anasayfa"),
-              onTap: () => Navigator.pop(context),
-            ),
-            ListTile(
               leading: const Icon(Icons.date_range_outlined),
               title: const Text("Randevular"),
               onTap: () => Navigator.push(
