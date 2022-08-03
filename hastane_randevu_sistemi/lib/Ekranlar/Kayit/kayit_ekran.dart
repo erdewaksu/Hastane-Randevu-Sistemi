@@ -71,12 +71,6 @@ class _KayitEkranState extends State<KayitEkran> {
                 ],
               ),
             ),
-           
-            ListTile(
-              leading: const Icon(Icons.home_outlined),
-              title: const Text("Anasayfa"),
-              onTap: () => Navigator.pop(context),
-            ),
             ListTile(
               leading: const Icon(Icons.date_range_outlined),
               title: const Text("Randevular"),
